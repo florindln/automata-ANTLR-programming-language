@@ -1,0 +1,11 @@
+sat
+(model 
+  (define-fun y () A
+    A!val!1)
+  (define-fun x () A
+    A!val!0)
+  (define-fun f ((x!1 A)) A
+    (ite (= x!1 A!val!0) A!val!1
+    (ite (= x!1 A!val!1) A!val!0
+      A!val!1)))
+)

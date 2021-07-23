@@ -1,0 +1,34 @@
+
+
+func b(x){
+	x = x + 1
+	if x<=2 then {print "Smaller or equal than 2"} else {print "Bigger than 2"}	fi
+	print x
+}
+
+func double(y){
+	return 2 * y
+	print "After RETURN"
+}
+
+func sum(z,t,o){
+	print z
+	return (z+t)*o
+}
+
+Main(){
+	print 0
+	p=1
+	b(p)
+	b(p+1)
+	c = double(p)	
+	while p<2 do {if p==1 then { p = p + 1 print p}else p = p + 1 fi print 9999 }
+	kk=3
+	d = sum(kk,1,100)
+	
+	
+	abc=1
+	while abc<5 do {print "ceva" abc=abc+1}
+
+	if p>0 then { p = p + 1 print p}else p = p + 1
+}
